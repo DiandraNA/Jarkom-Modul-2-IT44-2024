@@ -56,3 +56,52 @@ iface eth0 inet static
     netmask 255.255.255.0
     gateway 10.85.1.2  
 ```
+**Solok**
+```
+auto eth0
+iface eth0 inet static
+    address 10.85.1.5
+    netmask 255.255.255.0
+    gateway 10.85.1.2
+```
+**Srikandi**
+```
+auto eth0
+iface eth0 inet static
+    address 10.85.1.6
+    netmask 255.255.255.0
+    gateway 10.85.1.2
+```
+**Kotalingga**
+```
+auto eth0
+iface eth0 inet static
+    address 10.85.2.6
+    netmask 255.255.255.0
+    gateway 10.85.2.2 
+```
+**Bedahulu**
+```
+auto eth0
+iface eth0 inet static
+    address 10.85.2.5
+    netmask 255.255.255.0
+    gateway 10.85.2.2
+```
+**Tanjungkulai**
+```
+
+auto eth0
+iface eth0 inet static
+    address 10.85.2.3
+    netmask 255.255.255.0
+    gateway 10.85.2.2
+```
+**AlbertEinstein / Ubuntu-1-1**
+```
+auto eth0
+iface eth0 inet static
+    address 10.85.2.4
+    netmask 255.255.255.0
+    gateway 10.85.2.2
+```
